@@ -1,0 +1,17 @@
+.projects-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10%;
+}
+.projects-container .buttons{
+    display: flex;
+    gap: 55px;
+}
+.buttons button{
+    background: #a0a0a048;
+    border: 0;
+    padding: 5px 60px;
+    color: rgb(58, 58, 58);
+}
