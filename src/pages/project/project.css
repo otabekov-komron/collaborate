@@ -1,0 +1,10 @@
+.project-container{
+    
+}
+.project-container .project-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    align-items: center;
+}
