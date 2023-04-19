@@ -18,7 +18,7 @@ const Login = () => {
                 <label htmlFor="lname">Password confirmation</label>
                 
                 <input type="password" id="lname" name="lname"></input>
-                <Btn text="Sign In" color='#7299CE' />
+                <Btn bgcolor='#7299CE' text="Sign In" color='white' />
             </form>
             <p>You don't have account yet?  Register</p>
         </div>

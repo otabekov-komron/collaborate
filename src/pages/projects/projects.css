@@ -15,3 +15,67 @@
     padding: 5px 60px;
     color: rgb(58, 58, 58);
 }
+.buttons button:hover{
+    cursor: pointer;
+    background: #7299CE;
+    color: white;
+    transition: 0.4s ease;
+}
+
+.projects-container .list{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    list-style: none;
+
+}
+.list .list-item{
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    width: 30%;
+    border: 1px solid #6e6e6e ;
+    box-shadow: 2px 4px 10px 2px #6e6e6e;
+}
+.list-item .item-head{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    gap: 15px;
+    background: #1d1d1d;
+    color: white;
+    padding: 0 10px 6px 7px;
+    font-size: 14px;
+}
+.list-item .item-body{
+    display: flex;
+    flex-direction: column;
+    padding: 5px 20px;
+
+}
+.list-item .item-bottom{
+    display: flex;
+    justify-content: space-between;
+    background: #eeeeee;
+    padding: 20px 20px;
+}
+.list-item .item-bottom .first{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+.first span{
+    background: #6e6e6e;
+    color: white;
+    padding: 2px 4px;
+    border-radius: 5px;
+}
+.second i{
+    background-color: red;
+    color: white;
+    padding: 6px;
+    border-radius: 4px;
+}

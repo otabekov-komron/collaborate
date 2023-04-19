@@ -19,7 +19,7 @@ const Register = () => {
                 <label htmlFor="lname">Password</label>
                 <span>( Must be at least 6 characters long )</span>
                 <input type="password" id="lname" name="lname"></input>
-                <Btn text="Sign Up" color='#7299CE'/>
+                <Btn bgcolor='#7299CE' text="Sign Up" color='white'/>
             </form>
             <p>Already a member? Log in</p>
         </div>

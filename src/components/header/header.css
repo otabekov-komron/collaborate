@@ -1,10 +1,15 @@
 .header{
     display: flex;
     justify-content: space-between;
+    flex-direction: row;
     align-items: center;
-    padding: 5px 10px;
-
+    padding: 10px 20px;
 }
 .header img{
     width: 60px;
+}
+.header .sections{
+    display: flex;
+    flex-direction: row;
+    
 }
